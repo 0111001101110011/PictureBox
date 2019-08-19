@@ -54,13 +54,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Emgu.CV.UI">
-      <HintPath>..\..\..\..\Desktop\EmguCV_lib\EmguCV_lib\Emgu.CV.UI.dll</HintPath>
+      <HintPath>..\..\..\..\Pictures\Emgu.CV.UI.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="Emgu.CV.UI.GL">
-      <HintPath>..\..\..\..\Desktop\EmguCV_lib\EmguCV_lib\Emgu.CV.UI.GL.dll</HintPath>
+      <HintPath>..\..\..\..\Pictures\Emgu.CV.UI.GL.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="Emgu.CV.World">
-      <HintPath>..\..\..\..\Desktop\EmguCV_lib\EmguCV_lib\Emgu.CV.World.dll</HintPath>
+      <HintPath>..\..\..\..\Pictures\Emgu.CV.World.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

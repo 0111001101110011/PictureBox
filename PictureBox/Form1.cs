@@ -25,15 +25,15 @@ namespace PictureBox
         private void Button1_Click(object sender, EventArgs e)
         {
             //Variable de la ruta de la imagen
-            string imagen = "C:\\Users\\alumno\\Desktop\\SAF-logo.jpg";
+            string imagen = "C:\\Users\\alumno\\Source\\Repos\\PictureBox\\Imagenes\\imagen.jpg";
             _InputColor = new Image<Bgr, byte>(imagen);
 
             if(_InputColor == null){
-                MessageBox.Show("Mo se cargó la imagen");
+                MessageBox.Show("No se cargó la imagen");
                 return;
 
             }
             imageBox1.Image = _InputColor;
-        }
-    }
+
+        
 }
